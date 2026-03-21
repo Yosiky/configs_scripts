@@ -8,7 +8,8 @@ return {
                 ensure_installed = {
                     "c", "python", "xml", "lua", "make",
                     "objdump", "cmake", "json", "meson",
-                    "disassembly", "asm", "bash", "cpp"
+                    "disassembly", "asm", "bash", "cpp",
+                    "dockerfile"
                 },
                 sync_install = true,
                 auto_install = true,

@@ -1,6 +1,7 @@
 require('base/search')
 require('base/tabs')
 require('base/other')
+require('base/lsp')
 require('keys/main')
 
 local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"

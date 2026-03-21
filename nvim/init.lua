@@ -18,3 +18,9 @@ end
 vim.opt.rtp:prepend(lazypath)
 
 require("lazy").setup("plugins")
+
+require('base/git_permalink').setup{
+    lhs  = '<leader>gl',   -- you can change the hot‑key here
+    mode = 'n',       -- normal mode (could be 'v' for visual, etc.)
+    desc = 'Copy Git line‑permalink',
+}
