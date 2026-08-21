@@ -6,7 +6,7 @@ vim.lsp.config['clangd'] = {
         "compile_commands.json", "compile_flags.txt", "configure.ac",
         ".git", "build"
     },
-    cpapbilities = {
+    capabilities = {
         offsetEncoding = {"utf-8", "utf-16"},
         textDocument = {
             completion = { editsNearCursor = true }

@@ -25,9 +25,8 @@ vim.opt.number = true
 vim.opt.cursorline = true
 vim.opt.termguicolors = true
 
-vim.g.mouse = a
+vim.opt.mouse = 'a'
 vim.opt.encoding = 'utf-8'
 vim.opt.swapfile = false
 
 vim.opt.colorcolumn = "80"
-
